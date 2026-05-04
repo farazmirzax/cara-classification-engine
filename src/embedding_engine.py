@@ -6,7 +6,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class CandidateClassifier:
     def __init__(self, data_dir="data"):
-        # Load a fast, lightweight embedding model suitable for CPU
         print("Loading embedding model (this takes a few seconds the first time)...")
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
         
@@ -14,7 +13,7 @@ class CandidateClassifier:
         self.rubric = self._load_json(os.path.join(data_dir, "rubric.json"))
         self.candidates = self._load_json(os.path.join(data_dir, "candidates.json"))
         
-        # Pre-compute embeddings for tracks and degrees so we don't recalculate them
+        # Pre-compute embeddings
         self.track_names = [t["id"] for t in self.rubric["tracks"]]
         self.track_texts = [f"{t['name']} {t['description']}" for t in self.rubric["tracks"]]
         self.track_embeddings = self.model.encode(self.track_texts)
@@ -28,7 +27,7 @@ class CandidateClassifier:
             return json.load(f)
 
     def _generate_rationale(self, candidate, top_track_id, recommended_degree):
-        # Dynamically generate a rationale based on the algorithmic matches
+        # Generate rationale from similarity scores
         track_name = next(t["name"] for t in self.rubric["tracks"] if t["id"] == top_track_id)
         
         return (f"Based on holistic vector similarity, the candidate's background in "
@@ -38,7 +37,7 @@ class CandidateClassifier:
                 f"as the optimal degree pathway.")
 
     def classify_single(self, candidate):
-        # Create a rich text representation of the candidate for the model to "read"
+        # Encode candidate profile as text
         candidate_text = f"{candidate['degree']}. Subjects: {candidate['subjects']}. Experience: {candidate['experience']}. Goal: {candidate['sop']}"
         candidate_vec = self.model.encode([candidate_text])
         

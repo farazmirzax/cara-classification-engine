@@ -14,11 +14,9 @@ def save_output(data, output_dir="outputs", filename="final_recommendations.json
 if __name__ == "__main__":
     print("Initializing CARA Pipeline Classification Engine...")
     
-    # Initialize our ML engine
+    #Initializing the classifier
     classifier = CandidateClassifier(data_dir="data")
     
-    # Run the classification
     final_results = classifier.run_pipeline()
     
-    # Save the deliverables
     save_output(final_results)
