@@ -1,0 +1,62 @@
+[
+    {
+        "candidate_id": "Sample_FreshGrad_01",
+        "top_3_career_tracks": [
+            "T09",
+            "T01",
+            "T10"
+        ],
+        "recommended_degree": "MHA",
+        "rationale": "Based on holistic vector similarity, the candidate's background in [BDS from Maharashtra University of Health Sciences.] and expressed interest in [wants to transition from clinical to administrativ...] mathematically aligns closest with the 'Digital Health, Informatics & Data Governance' track. The semantic focus of their profile strongly indicates a MHA as the optimal degree pathway."
+    },
+    {
+        "candidate_id": "Sample_MPH_Community_01",
+        "top_3_career_tracks": [
+            "T05",
+            "T06",
+            "T04"
+        ],
+        "recommended_degree": "MPH",
+        "rationale": "Based on holistic vector similarity, the candidate's background in [BA Sociology, University of Mumbai, GPA 3.5, 2022.] and expressed interest in [wants to design community health programs addressi...] mathematically aligns closest with the 'Public, Community & Global Health Programs' track. The semantic focus of their profile strongly indicates a MPH as the optimal degree pathway."
+    },
+    {
+        "candidate_id": "Sample_MBA_Finance_01",
+        "top_3_career_tracks": [
+            "T03",
+            "T01",
+            "T10"
+        ],
+        "recommended_degree": "MBA-HC",
+        "rationale": "Based on holistic vector similarity, the candidate's background in [BCom Accounting & Finance, Symbiosis International, GPA 3.7, 2020.] and expressed interest in [wants to move into healthcare CFO track; intereste...] mathematically aligns closest with the 'Healthcare Finance, Payer Strategy & Value-Based Care' track. The semantic focus of their profile strongly indicates a MBA-HC as the optimal degree pathway."
+    },
+    {
+        "candidate_id": "Sample_MSHI_Tech_01",
+        "top_3_career_tracks": [
+            "T09",
+            "T10",
+            "T11"
+        ],
+        "recommended_degree": "MSHI",
+        "rationale": "Based on holistic vector similarity, the candidate's background in [BTech Computer Science, VIT Vellore, GPA 3.6, 2021.] and expressed interest in [wants to bridge clinical workflows with technology...] mathematically aligns closest with the 'Digital Health, Informatics & Data Governance' track. The semantic focus of their profile strongly indicates a MSHI as the optimal degree pathway."
+    },
+    {
+        "candidate_id": "Sample_MHA_LTC_01",
+        "top_3_career_tracks": [
+            "T01",
+            "T09",
+            "T10"
+        ],
+        "recommended_degree": "MHA",
+        "rationale": "Based on holistic vector similarity, the candidate's background in [BSc Nursing, AIIMS Delhi, GPA 3.8, 2019.] and expressed interest in [wants to move from bedside nursing into managing l...] mathematically aligns closest with the 'Healthcare Administration, Operations, Quality & Risk' track. The semantic focus of their profile strongly indicates a MHA as the optimal degree pathway."
+    },
+    {
+        "candidate_id": "Sample_MPH_Policy_01",
+        "top_3_career_tracks": [
+            "T07",
+            "T05",
+            "T09"
+        ],
+        "recommended_degree": "MPH",
+        "rationale": "Based on holistic vector similarity, the candidate's background in [BA Political Science, St. Xavier's College Mumbai, GPA 3.4, 2023.] and expressed interest in [passionate about using policy levers to improve he...] mathematically aligns closest with the 'Health Policy, Economics & Advocacy' track. The semantic focus of their profile strongly indicates a MPH as the optimal degree pathway."
+    }
+]

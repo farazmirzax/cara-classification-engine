@@ -1,0 +1,65 @@
+{
+  "degrees": {
+    "MHA": "Master of Health Administration: Provider operations, hospital leadership",
+    "MPH": "Master of Public Health: Population health, epidemiology, policy",
+    "MSHI": "Master of Science in Health Informatics: Health IT, data systems, EHR",
+    "MBA-HC": "MBA with Healthcare Concentration: Finance, strategy, entrepreneurship"
+  },
+  "tracks": [
+    {
+      "id": "T01",
+      "name": "Healthcare Administration, Operations, Quality & Risk",
+      "description": "Leadership evidence, ops/management interest, hospital or health system goal, quality improvement language. Fits with MHA primary, or MPH, MBA-HC."
+    },
+    {
+      "id": "T02",
+      "name": "Healthcare Consulting & Advisory",
+      "description": "Project-based advisory interest, client-facing problem solving, strategy or transformation language, implementation focus. Fits subtrack-specific degrees."
+    },
+    {
+      "id": "T03",
+      "name": "Healthcare Finance, Payer Strategy & Value-Based Care",
+      "description": "Finance/accounting background, payer or revenue cycle interest, VBC/ACO keywords, quantitative strength. Fits MBA-HC primary, or MHA, MSHI."
+    },
+    {
+      "id": "T04",
+      "name": "Behavioral Health & Human Services Management",
+      "description": "Mental health or SUD interest, community behavioral health language, psychology or social work background. Fits MPH primary, or MHA."
+    },
+    {
+      "id": "T05",
+      "name": "Public, Community & Global Health Programs",
+      "description": "Community health interest, health equity language, disease prevention, outreach/education, global health focus. Fits MPH primary, or MHA, MBA-HC."
+    },
+    {
+      "id": "T06",
+      "name": "Population Health Analytics, Epidemiology & Outcomes Research",
+      "description": "Epidemiology or biostatistics interest, data analysis keywords, research methodology, outcomes/evaluation focus. Fits MPH primary, or MSHI, MBA-HC."
+    },
+    {
+      "id": "T07",
+      "name": "Health Policy, Economics & Advocacy",
+      "description": "Policy or legislative interest, advocacy language, government or regulatory career goal, health economics. Fits MPH primary, or MBA-HC, MHA."
+    },
+    {
+      "id": "T08",
+      "name": "Environmental, Occupational & Climate Health",
+      "description": "Environmental health interest, occupational safety, toxicology/exposure keywords, food safety or climate-health focus. Fits MPH primary, or MHA."
+    },
+    {
+      "id": "T09",
+      "name": "Digital Health, Informatics & Data Governance",
+      "description": "Health IT or EHR interest, technical skills such as SQL/Python, interoperability keywords, clinical informatics, data governance. Fits MSHI primary, or MHA, MBA-HC."
+    },
+    {
+      "id": "T10",
+      "name": "Life Sciences, Clinical Research & Regulatory Management",
+      "description": "Pharma/biotech/medtech interest, clinical trials or regulatory affairs keywords, FDA/IRB language, life sciences + business combination. Fits MBA-HC primary, or MPH, MSHI."
+    },
+    {
+      "id": "T11",
+      "name": "Healthcare Entrepreneurship, Product & Innovation",
+      "description": "Startup or innovation language, digital health product interest, venture/GTM keywords, building or scaling new care models. Fits MBA-HC primary, or MSHI, MHA."
+    }
+  ]
+}

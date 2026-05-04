@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Sample_FreshGrad_01",
+    "degree": "BDS from Maharashtra University of Health Sciences.",
+    "subjects": "anatomy, physiology, biochemistry, pathology, pharmacology, community medicine, oral medicine, dental surgery.",
+    "experience": "Fresh graduate, 0 years experience.",
+    "strengths": "Judgment, Leadership, Perspective, Honesty, Social Intelligence.",
+    "sop": "wants to transition from clinical to administrative leadership; interested in organizational leadership and quality improvement at a large healthcare organization."
+  },
+  {
+    "id": "Sample_MPH_Community_01",
+    "degree": "BA Sociology, University of Mumbai, GPA 3.5, 2022.",
+    "subjects": "sociology, community development, social research methods, health & society, cultural anthropology, gender studies.",
+    "experience": "1 year as Community Outreach Coordinator at a rural health NGO.",
+    "strengths": "Kindness, Social Intelligence, Teamwork, Fairness, Perspective.",
+    "sop": "wants to design community health programs addressing social determinants; long-term goal to lead health equity programs at a state health department."
+  },
+  {
+    "id": "Sample_MBA_Finance_01",
+    "degree": "BCom Accounting & Finance, Symbiosis International, GPA 3.7, 2020.",
+    "subjects": "financial accounting, corporate finance, cost accounting, business law, economics, taxation, auditing.",
+    "experience": "3 years as Senior Associate, Healthcare Audit at Deloitte India. CPA US Candidate.",
+    "strengths": "Judgment, Prudence, Honesty, Perseverance, Self-Regulation.",
+    "sop": "wants to move into healthcare CFO track; interested in revenue cycle optimization, payer contracting, and capital allocation."
+  },
+  {
+    "id": "Sample_MSHI_Tech_01",
+    "degree": "BTech Computer Science, VIT Vellore, GPA 3.6, 2021.",
+    "subjects": "data structures, algorithms, database systems, Python, Java, machine learning, cloud computing.",
+    "experience": "2 years as Software Developer at a health-tech startup, EHR integration. AWS Cloud Practitioner certified.",
+    "strengths": "Curiosity, Judgment, Love of Learning, Creativity, Perseverance.",
+    "sop": "wants to bridge clinical workflows with technology; interested in EHR optimization, FHIR interoperability, and clinical decision support; long-term goal: Director of Health Informatics."
+  },
+  {
+    "id": "Sample_MHA_LTC_01",
+    "degree": "BSc Nursing, AIIMS Delhi, GPA 3.8, 2019.",
+    "subjects": "anatomy, physiology, geriatric nursing, community health nursing, mental health nursing, pharmacology, nursing administration.",
+    "experience": "4 years clinical experience: 2 years general ward, 2 years geriatric unit at Apollo Hospitals.",
+    "strengths": "Kindness, Perspective, Leadership, Teamwork, Gratitude.",
+    "sop": "wants to move from bedside nursing into managing long-term care facilities; interested in memory care program design and quality improvement for aging populations."
+  },
+  {
+    "id": "Sample_MPH_Policy_01",
+    "degree": "BA Political Science, St. Xavier's College Mumbai, GPA 3.4, 2023.",
+    "subjects": "Indian politics, public policy, constitutional law, international relations, political philosophy, public administration.",
+    "experience": "Fresh graduate; 3-month internship at a health policy think tank.",
+    "strengths": "Leadership, Perspective, Judgment, Social Intelligence, Fairness.",
+    "sop": "passionate about using policy levers to improve healthcare access; inspired by Ayushman Bharat scheme; wants to work in government health policy or advocacy; long-term goal: shape national health legislation."
+  }
+]
